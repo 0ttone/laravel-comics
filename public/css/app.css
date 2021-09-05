@@ -10030,9 +10030,9 @@ h3 {
 }
 .top-nav .nav-container .menu-container ul li a {
   text-decoration: none;
-  color: text-dark-gray;
+  color: #464646;
 }
 .top-nav .nav-container .menu-container ul li a:hover {
   text-decoration: underline;
-  color: dc-color-blu;
+  color: #0282f9;
 }

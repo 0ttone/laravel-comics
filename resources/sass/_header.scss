@@ -1,6 +1,17 @@
+// .top-ban{
+//       display: flex;
+//       justify-content:flex-end
+//       background-color: #0282f9;
+//       color:#fff;
+//       width: 1280px;
+//       font-size:12px;
+// }
+
+
 .top-nav{
       display: flex;
       justify-content: center;
+      
       .nav-container{
             display: flex;
             width: 1280px;
@@ -25,10 +36,10 @@
                               padding: 0 12px;
                               a {
                                     text-decoration: none;
-                                    color: $text-dark-gray;
+                                    color: #464646;
                                     &:hover {
                                           text-decoration: underline;
-                                          color: $dc-color-blu;
+                                          color: #0282f9;
                                     }
                                     
                               }

@@ -1,3 +1,9 @@
+<!--<div class="top-ban ">
+      <div>DC POWER VISA</div>
+      <div>ADDITIONAL SITES</div>
+
+
+</div>-->
 <nav class="top-nav">
       <div class="nav-container container">
             <div class="img-container">
