@@ -1,12 +1,48 @@
 .footer-nav{
-      background-image: url("../images/footer-bg.jpg");
+      background-image: url("/images/footer-bg.jpg");
       position: relative;
       background-size: cover;
       overflow: hidden;
+      
 
       .container{
             display: flex;
             padding: 48px;
+             
+            .footer-dc-img{
+                  img{
+                        position:absolute;
+                        left: 65%;
+                        top: 0;
+                        
+                  }
+            }
+            .footer-menu{
+                  margin-right: 24px;
+                  ul{
+                        list-style: none;
+                        li{
+                              padding: 4px 0px;
+                              &:first-child{
+                                    color:#fff;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 12px 0px;
+                              }
+                              a{
+                                    color:#5e5c5c;
+                                    text-decoration:none;
+
+                                    &:hover{
+                                          color:#0282f9;
+                                          text-decoration: underline;
+                                    }
+                              }
+                        }
+                  }
+            }
+
+
                   
       }
 

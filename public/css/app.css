@@ -10036,3 +10036,42 @@ h3 {
   text-decoration: underline;
   color: #0282f9;
 }
+
+.footer-nav {
+  background-image: url("/images/footer-bg.jpg");
+  position: relative;
+  background-size: cover;
+  overflow: hidden;
+}
+.footer-nav .container {
+  display: flex;
+  padding: 48px;
+}
+.footer-nav .container .footer-dc-img img {
+  position: absolute;
+  left: 65%;
+  top: 0;
+}
+.footer-nav .container .footer-menu {
+  margin-right: 24px;
+}
+.footer-nav .container .footer-menu ul {
+  list-style: none;
+}
+.footer-nav .container .footer-menu ul li {
+  padding: 4px 0px;
+}
+.footer-nav .container .footer-menu ul li:first-child {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 12px 0px;
+}
+.footer-nav .container .footer-menu ul li a {
+  color: #5e5c5c;
+  text-decoration: none;
+}
+.footer-nav .container .footer-menu ul li a:hover {
+  color: #0282f9;
+  text-decoration: underline;
+}
