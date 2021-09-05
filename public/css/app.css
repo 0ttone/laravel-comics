@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap);@charset "UTF-8";
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -10001,4 +10001,19 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+.top-nav {
+  display: flex;
+  justify-content: center;
+}
+.top-nav .nav-container {
+  display: flex;
+  width: 1280px;
+  justify-content: space-betwen;
+}
+.top-nav .nav-container .img-container {
+  width: 72px;
+}
+.top-nav .nav-container .img-container img {
+  width: 100%;
 }
