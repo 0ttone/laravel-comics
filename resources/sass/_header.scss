@@ -6,6 +6,8 @@
             width: 1280px;
             justify-content: space-between;
             align-items: center;
+            padding: 12px;
+
             .img-container{
                   width: 72px;
                   img{
@@ -23,10 +25,10 @@
                               padding: 0 12px;
                               a {
                                     text-decoration: none;
-                                    color: #464646;
+                                    color: $text-dark-gray;
                                     &:hover {
                                           text-decoration: underline;
-                                          color:#1a86f9
+                                          color: $dc-color-blu;
                                     }
                                     
                               }

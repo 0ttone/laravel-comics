@@ -10011,6 +10011,7 @@ h3 {
   width: 1280px;
   justify-content: space-between;
   align-items: center;
+  padding: 12px;
 }
 .top-nav .nav-container .img-container {
   width: 72px;
@@ -10029,9 +10030,9 @@ h3 {
 }
 .top-nav .nav-container .menu-container ul li a {
   text-decoration: none;
-  color: #464646;
+  color: text-dark-gray;
 }
 .top-nav .nav-container .menu-container ul li a:hover {
   text-decoration: underline;
-  color: #1a86f9;
+  color: dc-color-blu;
 }
