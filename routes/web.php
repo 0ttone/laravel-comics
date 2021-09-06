@@ -14,10 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
-})->name('homepage');
+      $comics = config('comics'); //genera la variabile che richiama l array con config
+    return view('home',[
+          'comics' => $comics // ritorna la varibile utilizzabile
+    ]);
+})->name('homepage');// permette di richiamare la route nel template dal nome e non dal percorso
 
-Route::get('/singleComic', function () {
-      return view('comic');
+Route::get('/singleComic/{$id}', function ($id) { //id è una variabile che inviamo alla callback e ci permette di ciclare l interno 
+     $comics = config('comics');
+
+      return view('singleComic', [
+            "id" => $id-1,
+            'comics' => $comics
+      ]);
   })->name('singleComic');
 
